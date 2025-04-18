@@ -1,0 +1,26 @@
+:root {
+    --bg-gradient: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    --text-light: #fff;
+  }
+  
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--bg-gradient);
+    min-height: 100vh;
+    color: var(--text-light);
+  }
+  
+  .container {
+    max-width: 480px;
+    margin: 2rem auto;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+  }
+  
